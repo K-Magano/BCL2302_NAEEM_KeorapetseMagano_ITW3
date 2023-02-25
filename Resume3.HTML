@@ -15,22 +15,33 @@
       body {background-image: linear-gradient(#d695ef, #ff7cd8, #ff42c1, #6696fd, #6d41e8);
                }; /*I used linear-gradient and my favorite unicorn colors to give me a smooth blend of colors.*/
       
-     /* #PP{width: 40%;
-        height:40%;
-                   position: absolute; /*absolute "sticks" the image in one place. Fixed keeps it in place on the screen but not on the documenet*/
+     #PP{max-width: auto;
+                   position: absolute; }/*absolute "sticks" the image in one place. Fixed keeps it in place on the screen but not on the documenet*/
 
                    /*h2{color: white;
          font-style: verdana;
         background-color:#992C78 ;
         font-size: 50px;}*/
 
+        /*couldn't style h2 collectively, maybe its because it has different id's*/
+
         #Education{color: antiquewhite;
            font-family: Georgia, 'Times New Roman', Times, serif ;
            font-size: 50px;}
 
-      h3{font-size: 20px;
+        #Experience{color: antiquewhite;
+           font-family: Georgia, 'Times New Roman', Times, serif ;
+           font-size: 50px;}
+
+        #Skills{color: antiquewhite;
+           font-family: Georgia, 'Times New Roman', Times, serif ;
+           font-size: 50px;}
+        #Skill{font-size: 20px;}
+
+      h3{font-size: 25px;
         background-color:#B0A8B9 ;
-      color: black;}
+      color: black;
+       }
       
       
 
@@ -45,10 +56,11 @@
             font-size: 20px;
           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
       
-      
-      .job {font-size: larger;}
+      #CS{font-style: italic;}
+      .job {font-size: 20px;}
 
       #Contact {font-style:italic;}
+      #LinkedIn {font-size: 18px;}
       footer {background-color: aqua;}
 
 
@@ -68,7 +80,7 @@
 
 <section>
  <aside>
-  <img src="images/k.magano.jpg" alt="Profile picture of K.Magano" id="PP">
+  <img src="images/k.magano.jpg" alt="Profile picture of K.Magano"  id="PP" >
   
   <ul>   
     <li class="menu"><a href="#Education">Education</a></li>
@@ -80,7 +92,7 @@
 <article> 
     <h2 id="Education" >Education</h2>
   
-  <h3>Intro to Web at <a href="https://www.codespace.co.za/" target="_blank">CodeSpace Academy</a></h3>
+  <h3>Intro to Web at <a href="https://www.codespace.co.za/" target="_blank" id="CS">CodeSpace Academy</a></h3>
 
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
  
@@ -127,7 +139,7 @@
 
 <footer>
     <h2 id="Contact">Contact Details</h2>
-        <a href="https://www.linkedin.com/in/keorapetse-magano-320ab538/" target="_blank">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/keorapetse-magano-320ab538/" target="_blank" id="LinkedIn"</a>
 </footer>     
 
 </html>
