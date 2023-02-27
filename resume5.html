@@ -11,27 +11,35 @@
       /*Styling CSS was implemented from Resume 4 till 6 
         RESUME 5 added margins, padding, border-radius*/
 
-      header{background-color: #C197FF;
-             padding-left: 15px;
-            padding-right: 0px;
-            padding-top: 5px;
-            padding-bottom: 5px;
-            margin-top: 35px;
+      header{background-image:linear-gradient(#051937, #A8EB12 );
+             text-align: center ;
+            color: aliceblue;
+            padding: 5px 100px 5px 100px; 
+            margin:  35px 400px 35px 400px;
             border-radius: 40px;
-                        }
+                                }
+
       h1{color: #845EC2;
-          font-size: 50px;
-          font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+        font-size: 50px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 
                         'Lucida Grande', 'Lucida Sans Unicode',
                          Geneva, Verdana, sans-serif;
-          text-shadow: black; 12px -12px; 
+          text-shadow: black 1px -3px 5px;
                         }
    
       body {background-image: linear-gradient(
-         45deg, #00C9A7, #005B44);
+         200deg, #00C9A7, #005B44);
                }; /*I used linear-gradient and my favorite unicorn colors to give me a smooth blend of colors.*/
       
-   
+    article{position: relative;
+      background-image:linear-gradient(0deg, #051937, #A8EB12 );
+            padding-left: 30px;
+
+    }
+
+    a{color: #A8EB12;
+      text-decoration: none;}
+  
        
         
         /*absolute "sticks" the image in one place. Fixed keeps it in place on the screen but not on the documenet*/
@@ -43,94 +51,137 @@
 
         /*couldn't style h2 collectively, maybe its because it has different id's*/
 
-       #Education{
+        #Education{
            color: antiquewhite;
-           font-family: sans-serif;
+           font-family: sans-serif; 
            font-size: 50px;
-           background-color:#C197FF;
-           padding: 10px 0px 20px 25px;
-           margin: 10% 0% 5% 5%;
-           border-radius: 40px 40px 40px 40px; }
-
+           padding: 5px 100px 5px 100px; 
+           margin:  35px 400px 35px 400px;
+           border-radius: 40px 40px 40px 40px; 
+           text-shadow: black 1px -3px 5px;
+           text-align: center;
+           background-image:linear-gradient(120deg, #051937, #A8EB12 )
+            }
+        
         #Experience{
            color: antiquewhite;
            font-family: sans-serif; 
            font-size: 50px;
-           background-color:#C197FF;
-           padding: 10px 0px 20px 25px;
-           margin: 10% 0% 5% 5%;
+           padding: 5px 100px 5px 100px; 
+           margin:  35px 400px 35px 400px;
            border-radius: 40px 40px 40px 40px; 
+           text-shadow: black 1px -3px 5px;
+           text-align: center;
+           background-image:linear-gradient(120deg, #051937, #A8EB12 )
             }
 
         #Skills{
            color: antiquewhite;
            font-family: sans-serif;
            font-size: 50px;
-           background-color:#C197FF;
-           padding: 10px 0px 20px 25px;
-           margin: 10% 0% 5% 5%;
-           border-radius: 40px 40px 40px 40px;}
+           text-shadow: black 12px -12px;
+           padding: 5px 100px 5px 100px; 
+           margin:  35px 400px 35px 400px;
+           border-radius: 40px 40px 40px 40px;
+           text-shadow: black 1px -3px 5px;
+           text-align: center;
+           background-image:linear-gradient(120deg, #051937, #A8EB12 )}
         
-           #Skill{
-            font-size: 20px;}
+        #Skill{
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 
+            'Times New Roman', serif;
+           }
       
       
       h3{
         font-size: 25px;
         color: black;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
          /*same as border-radius: 40px*/
               }
 
       p {
         font-size: 20px;
-        font-family:Arial, Helvetica, sans-serif;}
+        font-family:Cambria, Cochin, Georgia, Times, 
+        'Times New Roman', serif;
+        text-align: center;}
 
-      li{font-size: 23px;
-       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+     
 
       aside {
-        background-color: #845EC2 ;
+        background-image:linear-gradient(85deg, #051937, #A8EB12 );
+        color: aqua;
         border-radius: 40px 40px 40px 40px;
-        border-color: white;
-        padding: 100px;
         align-items: center;
-        margin: 50px;
-        margin-right: 100px;
+        align-content: flex-start;
+        position:absolute;
+        top: 0px; 
+        left: auto; 
+        
         
                  }
 
-      img{border-radius: 60px;
-          padding: 30px;
-          position: absolute;
-          margin: 5%;
-          display: block;}
+      img{border-radius: 90%;
+          top: 20px;
+          left: 20px; 
+          border: 15px solid #00C9A7;}
 
-      .menu {color:#442576;
+      .menu {
+            position: sticky;
             font-size: 20px;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+            font-family: 'Gill Sans', 'Gill Sans MT',
+            Calibri, 'Trebuchet MS', sans-serif; 
             background-color: gray;
             border-radius: 40px;
-             padding: 10px;
-             margin: 1%;
-                }
-      
+            padding: 5px;
+            margin: 5%;
+            text-align: center;
+                        }
+
+          
+       .menu:hover { 
+          transform: translateY(-10px);
+        }
+    
       .job {font-size: 20px;
             font-family: Cambria, Cochin, Georgia, Times, 
-            'Times New Roman', serif;}
+            'Times New Roman', serif;
+             }
 
-      #Contact {font-style:italic;
-                font-size: 25;
-                font-family: Arial, Helvetica, sans-serif;
-                font-weight: 100;
-                }
+      
+           
+      #LinkedIn {font-size: 18px;
+                 font-family: Verdana, Geneva, Tahoma, sans-serif;}
+                       
+      
 
-      #LinkedIn {font-size: 18px;}
 
-      footer {background-color: #C197FF;
+      footer {
+            background-image:linear-gradient(120deg, #051937, #A8EB12 );
+             color: antiquewhite;
              border-radius: 40px;
-             padding: 10px 0px 20px 25px;
-             margin: 10% 0% 5% 5%;
-               }
+             font-family: sans-serif;
+             font-size: 30px;
+             font-style: italic;
+             padding: 5px 100px 5px 100px; 
+            margin:  35px 400px 35px 400px;
+            text-shadow: black 1px -3px 5px ;
+            text-align: center;
+             }
+
+    
+  
+             
+           
+           
+           
+           
+           
+           
+           
+           
 
 /*resume5 border changes */
 
@@ -149,20 +200,22 @@
  <section>
  <aside>
   <img src="images/k.magano.jpg" alt="Profile picture of K.Magano"  width="250" height="250" class="pp" >
-  
+
+ 
   <ul>   
     <li class="menu"><a href="#Education">Education</a></li>
     <li class="menu"><a href="#Experience">Experience</a></li>
     <li class="menu"><a href="#Skills">Skills</a></li>
-</ul>
+ </ul>
+         
 </aside>
 
-<article> 
-    <h2 id="Education" >Education</h2>
+<article id="article"> 
+  <h2 id="Education">Education</h2>
   
-  <h3>Intro to Web at <a href="https://www.codespace.co.za/" target="_blank" id="CS">CodeSpace Academy</a></h3>
+    <h3>Intro to Web at <a href="https://www.codespace.co.za/" style="color: #A8EB12" target="_blank" id="CS">CodeSpace Academy</a></h3>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
  
   <h3>Qualification 2</h3>
 
@@ -187,14 +240,15 @@
     <li class="job">A sentence about the responsibilities of the job</li>
   </ul>  
     
-  
+  <section id="Skill">
   <h2 id="Skills">Skills</h2>
     <ul>
-    <li id="Skill">Skill 1</li>
-    <li id="Skill">Skill 2</li>
-    <li id="Skill">Skill 3</li>
-    <li id="Skill">Skill 4</li>
+    <li>Skill 1</li>
+    <li>Skill 2</li>
+    <li>Skill 3</li>
+    <li>Skill 4</li>
   </ul>
+</section>
 
 </section> 
 </body>
@@ -204,7 +258,7 @@
 
 <footer>
     <h2 id="Contact">Contact Details</h2>
-        <a href="https://www.linkedin.com/in/keorapetse-magano-320ab538/" target="_blank" id="LinkedIn" >LinkedIn</a>
+        <a href="https://www.linkedin.com/in/keorapetse-magano-320ab538/" target="_blank" class="LinkedIn" >LinkedIn</a>
    </footer>    
 
 </html>
