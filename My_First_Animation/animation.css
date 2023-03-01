@@ -27,19 +27,21 @@ text-align: center;
 /*Animating logo for challenge*/
 
 @keyframes divlogo{
-   
-      40%{transform: translate(150px);
- 
+    from {transform: translate(150px);
  }
-    
-    }
+
+ to {transform: translateX(100px);}
+   }
 
 
-    .div2{width: 100px;
-        height: 100px;
+    .div2{
         animation-name: divlogo;
         animation-duration: 4s;
         animation-iteration-count: infinite;
+        animation-direction: reverse;
         animation-timing-function: ease-in-out;
-        animation-duration: alternate;
-        text-align: center;}
+        
+
+        }
+
+    
