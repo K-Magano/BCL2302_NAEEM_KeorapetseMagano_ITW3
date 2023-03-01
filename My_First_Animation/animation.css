@@ -1,0 +1,45 @@
+ /*animation code*/
+ @keyframes divcolors{
+    0%{background-color: #25762F;}/*0% is the start of animation*/
+    20%{background-color: #008BBD;
+        border-radius: 50%;}
+    40%{background-color:#DBF9D8; 
+ transform: translate(150px);
+ 
+ }
+    60%{background-color: #D3A350; 
+        transform: rotate(120deg);}
+    }
+/*div is the element we are applying the animation to*/
+
+.div1{width: 100px;
+height: 100px;
+background-color: #25762F; 
+animation-name: divcolors;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+animation-duration: alternate;
+text-align: center;
+    
+}
+
+/*Animating logo for challenge*/
+
+@keyframes divlogo{
+   
+      40%{transform: translate(150px);
+ 
+ }
+    
+    }
+
+
+    .div2{width: 100px;
+        height: 100px;
+        animation-name: divlogo;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-duration: alternate;
+        text-align: center;}
