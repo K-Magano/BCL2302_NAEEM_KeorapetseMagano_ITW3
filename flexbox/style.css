@@ -63,3 +63,30 @@
         flex: 1;
     }
 }
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1{   
+    border:5px solid yellow;
+    padding: 15px; 
+    flex: 1;
+    width: 20%;
+}
+.box2{
+    border: 6px dotted red;
+    padding: 20px;
+    border-style: double ;
+    flex: 2; 
+    width: 20%;
+}
+.box3{
+    border: 7px dashed orange;
+    padding: 25px;
+    flex: 3;
+    width: 20%;
+
+}
+
